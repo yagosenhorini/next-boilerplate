@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "postinstall": "husky install",
+    "commit": "git-cz && yarn lint",
+    "lint:js": "eslint './**/*.{ts,tsx}' --fix",
+    "lint:css": "stylelint src/**/*.{ts,tsx}",
+    "lint": "yarn lint:js && yarn lint:css"
   },
   "dependencies": {
     "@types/node": "20.6.3",
@@ -17,6 +21,28 @@
     "next": "13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "^6.0.8",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@stylelint/postcss-css-in-js": "^0.38.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "postcss-styled": "^0.34.0",
+    "postcss-syntax": "^0.36.2",
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
