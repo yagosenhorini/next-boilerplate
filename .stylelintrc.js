@@ -3,7 +3,7 @@
  * https://stylelint.io/user-guide/configuration/
  */
 module.exports = {
-  processors: ['stylelint-processor-styled-components'],
+  customSyntax: 'postcss-styled-syntax',
   extends: [
     // The standard config based on a handful of CSS style guides
     // https://github.com/stylelint/stylelint-config-standard
@@ -17,5 +17,4 @@ module.exports = {
     // New standard rule. Break props on styled-components
     'value-keyword-case': null,
   },
-  syntax: 'scss',
 };
