@@ -18,8 +18,26 @@
         "name": "next"
       }
     ],
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"]
+      "@Components/*": ["./src/components/*"],
+      "@Containers/*": ["./src/containers/*"],
+      "@Constants/*": ["./src/constants/*"],
+      "@Contexts/*": ["./src/contexts/*"],
+      "@Core/*": ["./src/core/*"],
+      "@HOC/*": ["./src/hoc/*"],
+      "@Hooks/*": ["./src/hooks/*"],
+      "@Icons/*": ["./src/assets/icons/*"],
+      "@Images/*": ["./src/assets/images/*"],
+      "@Layouts/*": ["./src/layouts/*"],
+      "@Pages/*": ["./src/pages/*"],
+      "@Resources/*": ["./src/resources/*"],
+      "@Settings/*": ["./src/settings/*"],
+      "@Services/*": ["./src/services/*"],
+      "@Store/*": ["./src/store/*"],
+      "@Theme/*": ["./src/theme/*"],
+      "@Types/*": ["src/types/*"],
+      "@Utils/*": ["./src/utils/*"]
     }
   },
   "include": [
