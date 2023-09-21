@@ -35,6 +35,7 @@
       "@Settings/*": ["./src/settings/*"],
       "@Services/*": ["./src/services/*"],
       "@Store/*": ["./src/store/*"],
+      "@Styles/*": ["./src/styles/*"],
       "@Theme/*": ["./src/theme/*"],
       "@Types/*": ["src/types/*"],
       "@Utils/*": ["./src/utils/*"]
