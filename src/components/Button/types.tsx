@@ -1,3 +1,4 @@
 export type IButton = {
-  backgroundColor?: string;
+  $isPrimary?: boolean;
+  $backgroundColor?: string;
 };
