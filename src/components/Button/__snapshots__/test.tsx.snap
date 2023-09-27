@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the button 1`] = `
+.c0 {
+  width: 100px;
+  height: 50px;
+  border: none;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ED7D31;
+  border-radius: unset;
+}
+
+<button
+  class="c0"
+>
+  Button
+</button>
+`;
