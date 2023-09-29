@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuMobile /> should render the component 1`] = `
+.c0 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  transition: transform ease-in-out 0.7s;
+  transform: translateX(0%);
+  background-color: #7a8391;
+}
+
+.c1 {
+  display: flex;
+  list-style: none;
+  height: 18.75rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.c1 a {
+  text-decoration: none;
+}
+
+.c1 li {
+  font-size: 1.5rem;
+  margin-left: 1.875rem;
+}
+
+.c2 {
+  border: none;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  color: #000;
+  background-color: #E5E5E5;
+  border: 0.0625rem solid #000;
+}
+
+<div
+  class="c0"
+  data-testid="menu-list-mobile"
+>
+  <ul
+    class="c1"
+  >
+    <button
+      class="c2"
+      type="button"
+    >
+      X
+    </button>
+    <p>
+      oi
+    </p>
+  </ul>
+</div>
+`;

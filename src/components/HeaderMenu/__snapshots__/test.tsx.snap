@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderMenu /> should render the component 1`] = `
+.c0 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.c1 {
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 0.9375rem;
+  margin-left: 1.25rem;
+}
+
+.c2 {
+  display: flex;
+  list-style: none;
+  width: 22.5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.c2 a {
+  text-decoration: none;
+}
+
+.c3 {
+  cursor: pointer;
+  width: 3.75rem;
+  color: #fff;
+}
+
+.c3.is--home {
+  color: #ED7D31;
+}
+
+@media (min-width: 768px) {
+  .c3 {
+    color: #000;
+  }
+}
+
+<nav
+  class="c0"
+  data-testid="header-menu"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="Logo"
+      class=""
+      height="40"
+      src="/img/images/logo-teste.png"
+      title="Logo"
+      width="40"
+    />
+  </div>
+  <ul
+    class="c2"
+  >
+    <a
+      href="/"
+    >
+      <li
+        class="c3 is--home"
+        id="/"
+      >
+        Home
+      </li>
+    </a>
+    <a
+      href="#about"
+    >
+      <li
+        class="c3"
+        id="#about"
+      >
+        Sobre
+      </li>
+    </a>
+    <a
+      href="#projects"
+    >
+      <li
+        class="c3"
+        id="#projects"
+      >
+        Projetos
+      </li>
+    </a>
+    <a
+      href="/calculadora"
+    >
+      <li
+        class="c3"
+        id="/calculadora"
+      >
+        Calculadora TMB
+      </li>
+    </a>
+  </ul>
+</nav>
+`;

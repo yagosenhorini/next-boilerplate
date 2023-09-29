@@ -2,11 +2,17 @@ import { render, screen } from '@testing-library/react'
 
 import {{pascalCase name}} from '.'
 
-describe('<{{pascalCase name}} />', () => {
-  it('should render the heading', () => {
-    const { container } = render(<{{pascalCase name}} />)
+import StyledProvider from '../../lib/theme';
 
-    expect(screen.getByRole('heading', { name: /{{pascalCase name}}/i })).toBeInTheDocument()
+describe('<{{pascalCase name}} />', () => {
+  it('should render the component', () => {
+    const { container } = render(
+      <StyledProvider>
+        <{{pascalCase name}} />
+      </StyledProvider>
+      )
+
+    expect(screen.getByTestId('component-testid')).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })

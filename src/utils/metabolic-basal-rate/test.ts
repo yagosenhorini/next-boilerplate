@@ -17,12 +17,14 @@ describe('Metabolic basal rate', () => {
       activityLevel: 'sedentary',
     },
   };
+
   it('should calculate men metabolic basal rate', () => {
     const { men } = measures;
     expect(
       metabolicBasalRate(men.weight, men.height, men.age, men.gender)
     ).toBe('1867');
   });
+
   it('should calculate women metabolic basal rate', () => {
     const { women } = measures;
     expect(
@@ -55,6 +57,7 @@ describe('Metabolic basal rate', () => {
       )
     ).toBe('3227');
   });
+
   it('should calculate metabolic basal rate to sedentary men', () => {
     const { men } = measures;
     expect(

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> should render the component 1`] = `
+.c0 {
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+<form
+  class="c0"
+  data-testid="form"
+  novalidate=""
+>
+  <input
+    type="text"
+  />
+</form>
+`;

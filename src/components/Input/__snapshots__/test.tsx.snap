@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render the input 1`] = `
+.c0 {
+  width: 100%;
+  border: none;
+  height: 3.75rem;
+  padding-left: 1.25rem;
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+}
+
+.c0.has--error {
+  border-color: #82090f;
+}
+
+.c0.is--filled {
+  border-color: green;
+}
+
+<input
+  class="c0"
+  data-testid="input-component"
+  placeholder="text"
+  type="text"
+  value=""
+/>
+`;
